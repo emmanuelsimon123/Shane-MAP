@@ -1,0 +1,252 @@
+[
+  {
+    "id": "suebi",
+    "name": "Kingdom of the Suebi",
+    "origin": "Established in Gallaecia after 409 AD",
+    "keyRulers": "Rechiar (earlier), Remismund",
+    "capital": "Bracara Augusta (Braga)",
+    "summary": "The Suebi founded one of the first post-Roman kingdoms inside Hispania. By 476, they controlled parts of northwestern Iberia and competed with both local Roman elites and the Visigoths. Their court helped spread Nicene Christianity in the region during the later fifth and sixth centuries.",
+    "eventualFate": "Absorbed by the Visigothic kingdom in 585.",
+    "points": [[520,1500],[980,1410],[1170,1640],[1080,1950],[720,1980],[500,1780]]
+  },
+  {
+    "id": "visigoths",
+    "name": "Kingdom of the Visigoths",
+    "origin": "Foederati settlement in Aquitaine from 418 AD",
+    "keyRulers": "Euric (r. 466-484)",
+    "capital": "Tolosa (Toulouse), later Toledo",
+    "summary": "Under Euric, the Visigoths became the strongest western successor kingdom and expanded across much of Iberia and southern Gaul. They replaced Roman provincial rule with their own military-aristocratic government while retaining many Roman legal traditions. In 476, they were a decisive power in western Mediterranean politics.",
+    "eventualFate": "Lost most Gaulish lands to the Franks after 507, then ruled Hispania until the Umayyad conquest (711-720s).",
+    "points": [[980,1280],[1730,1100],[2120,1420],[2060,1880],[1710,2170],[1180,2230],[1040,1900]]
+  },
+  {
+    "id": "vandals",
+    "name": "Kingdom of the Vandals",
+    "origin": "Vandal migration into North Africa (429 AD)",
+    "keyRulers": "Gaiseric (r. 428-477)",
+    "capital": "Carthage",
+    "summary": "The Vandal kingdom controlled rich North African provinces and key islands in the western Mediterranean. Gaiseric built a navy strong enough to raid Italy and influence imperial succession. Around 476, this kingdom remained wealthy and strategically important.",
+    "eventualFate": "Conquered by Eastern Roman forces under Belisarius in 533-534.",
+    "points": [[1450,2570],[2330,2500],[2760,2740],[2660,3030],[1780,3140],[1390,2930]]
+  },
+  {
+    "id": "odoacer",
+    "name": "Kingdom of Odoacer (Italy)",
+    "origin": "Created after deposition of Romulus Augustulus in 476 AD",
+    "keyRulers": "Odoacer",
+    "capital": "Ravenna",
+    "summary": "Odoacer ruled Italy as king while formally acknowledging the eastern emperor Zeno. He kept much of the Roman administrative framework but redistributed land to his followers. His rule marks the conventional end of the Western Roman imperial office.",
+    "eventualFate": "Defeated by Theodoric and replaced by Ostrogothic rule (493).",
+    "points": [[2470,1460],[2870,1410],[3010,1820],[2860,2260],[2620,2360],[2400,2090],[2360,1740]]
+  },
+  {
+    "id": "syagrius",
+    "name": "Realm of Syagrius",
+    "origin": "Late Roman military enclave in northern Gaul",
+    "keyRulers": "Syagrius",
+    "capital": "Soissons",
+    "summary": "Syagrius governed a surviving Roman-ruled territory between expanding Frankish and Visigothic powers. Contemporary sources called him a 'Roman king,' reflecting both continuity and political isolation. His domain represented one of the last western pockets of direct Roman identity.",
+    "eventualFate": "Conquered by Clovis and the Franks in 486.",
+    "points": [[1910,930],[2260,890],[2360,1140],[2240,1330],[1940,1280],[1820,1090]]
+  },
+  {
+    "id": "nepos",
+    "name": "Realm of Nepos (Dalmatia)",
+    "origin": "Imperial holdout after deposition in 475 AD",
+    "keyRulers": "Julius Nepos",
+    "capital": "Salona",
+    "summary": "Julius Nepos, recognized in the East as legitimate western emperor, retained control in Dalmatia after losing Italy. His enclave remained diplomatically relevant because Zeno did not immediately legitimize Odoacer as emperor. In classroom terms, it shows how imperial authority faded unevenly.",
+    "eventualFate": "Ended after Nepos was murdered in 480; the area was absorbed by Odoacer.",
+    "points": [[3040,1560],[3270,1540],[3320,1710],[3200,1820],[3000,1760]]
+  },
+  {
+    "id": "burgundians",
+    "name": "Kingdom of the Burgundians",
+    "origin": "Federate kingdom in southeastern Gaul",
+    "keyRulers": "Gundobad (later dominant)",
+    "capital": "Lugdunum (Lyon), then Geneva region centers",
+    "summary": "The Burgundians settled between the upper Rhône and Saône and balanced relations with both Romans and neighboring Germanic powers. Their laws blended Roman and Burgundian legal practice. Around 476, they were consolidating a durable regional kingdom.",
+    "eventualFate": "Conquered by the Franks in 534.",
+    "points": [[2240,1320],[2560,1300],[2680,1530],[2520,1720],[2230,1630],[2140,1460]]
+  },
+  {
+    "id": "rugians",
+    "name": "Kingdom of the Rugians",
+    "origin": "Danubian kingdom in former Noricum",
+    "keyRulers": "Feletheus (also called Feva)",
+    "capital": "Region near modern Krems/Vienna (not a stable single capital)",
+    "summary": "The Rugians occupied territory north of the middle Danube and interacted closely with Odoacer and other post-Hunnic powers. Their kingdom was smaller than the Visigothic or Vandal realms but influential in Alpine-Danubian politics. It illustrates the fragmented frontier world after Attila.",
+    "eventualFate": "Defeated by Odoacer around 487; survivors later joined Ostrogothic movements.",
+    "points": [[2870,1080],[3140,1020],[3240,1180],[3100,1330],[2880,1280],[2780,1160]]
+  },
+  {
+    "id": "ostrogoths",
+    "name": "Kingdom of the Ostrogoths (pre-Italian phase)",
+    "origin": "Post-Hunnic Ostrogothic federate power in the Balkans/Pannonia",
+    "keyRulers": "Theodoric the Great",
+    "capital": "Mobile royal center; later Ravenna in Italy",
+    "summary": "By 476, Theodoric led major Ostrogothic groups in the Balkans under complicated ties to Emperor Zeno. Their power rested on mobile war-bands and negotiated settlements with imperial authorities. They became central to Italian politics when Theodoric invaded later in the 480s.",
+    "eventualFate": "Established Ostrogothic rule in Italy in 493, later conquered by the Eastern Roman Empire in the Gothic Wars.",
+    "points": [[3210,1230],[3600,1180],[3790,1450],[3590,1750],[3230,1700],[3080,1420]]
+  },
+  {
+    "id": "gepids",
+    "name": "Kingdom of the Gepids",
+    "origin": "Emergent kingdom after collapse of Hunnic dominance (mid-5th c.)",
+    "keyRulers": "Trapstila / Thraustila (approx.)",
+    "capital": "Sirmium region (contested)",
+    "summary": "The Gepids rose in the Carpathian Basin after Attila's empire fragmented. They controlled important routes between the Danube plains and the Balkans. Though less famous than Goths or Franks, they were a serious regional force in 476.",
+    "eventualFate": "Defeated by the Lombards and Avars in the 6th century.",
+    "points": [[3590,1080],[3900,1050],[4040,1320],[3920,1580],[3620,1520],[3480,1300]]
+  },
+  {
+    "id": "franks",
+    "name": "Frankish Realm",
+    "origin": "Ripuarian and Salian Frankish polities in northern Gaul",
+    "keyRulers": "Childeric I; Clovis I (from 481)",
+    "capital": "Tournai (early Merovingian center)",
+    "summary": "In 476 the Franks were a cluster of related kingdoms, not yet a fully unified state. Their elite served in late Roman military networks while building independent authority. Under Clovis, they rapidly expanded and became the leading power in Gaul.",
+    "eventualFate": "Expanded into the Merovingian Frankish kingdom that absorbed Syagrius and Burgundy.",
+    "points": [[1840,650],[2300,620],[2500,890],[2360,1130],[1960,1080],[1730,890]]
+  },
+  {
+    "id": "alemanni",
+    "name": "Alemanni Territory",
+    "origin": "Confederated Germanic groups on the upper Rhine",
+    "keyRulers": "Multiple local kings/dukes",
+    "capital": "No single fixed capital",
+    "summary": "The Alemanni occupied lands around the upper Rhine and Lake Constance. They were organized in regional groups rather than one highly centralized monarchy. Their frontier position brought repeated conflict and alliance with Franks, Burgundians, and Roman authorities.",
+    "eventualFate": "Brought under Frankish control in the late 5th and early 6th centuries.",
+    "points": [[2490,920],[2790,900],[2890,1130],[2750,1300],[2490,1210],[2380,1040]]
+  },
+  {
+    "id": "thuringians",
+    "name": "Thuringians",
+    "origin": "Post-Roman polity in central Germany",
+    "keyRulers": "Bisinus (traditionally associated)",
+    "capital": "No fixed capital",
+    "summary": "The Thuringians occupied central uplands east of the Frankish sphere. Their political structure likely combined royal leadership with strong regional aristocracies. They formed part of the shifting middle zone between Rhine and Danube powers.",
+    "eventualFate": "Defeated by the Franks in 531.",
+    "points": [[2910,760],[3260,750],[3390,980],[3210,1170],[2920,1110],[2800,910]]
+  },
+  {
+    "id": "anglo_jutish",
+    "name": "Anglo-Saxon and Jutish Kingdoms",
+    "origin": "Migration and settlement in Britain during 5th century",
+    "keyRulers": "Traditionally Hengist and Horsa; later Aelle-type rulers",
+    "capital": "Multiple early centers (e.g., Kentish and Saxon settlements)",
+    "summary": "Germanic migrants from Angles, Saxons, and Jutes established coastal and riverine polities in eastern and southern Britain. Their expansion reshaped language and political geography. Around 476, these kingdoms were still forming and varied greatly in size.",
+    "eventualFate": "Developed into the Heptarchy-era kingdoms of early medieval England.",
+    "points": [[1360,420],[1760,380],[1900,620],[1770,840],[1460,830],[1290,620]]
+  },
+  {
+    "id": "britons_picts",
+    "name": "Britons and Picts",
+    "origin": "Romano-British and northern tribal successor societies",
+    "keyRulers": "Regional kings (later figures include Maelgwn and Bridei traditions)",
+    "capital": "Multiple hillfort and civitas-based centers",
+    "summary": "After Roman military withdrawal, Brittonic kingdoms survived in western and northern Britain while Pictish groups dominated much of the far north. These societies preserved many local Roman-era patterns alongside older traditions. They resisted and negotiated with incoming Anglo-Saxon groups.",
+    "eventualFate": "Persisted as Welsh, Cornish, and northern British/Pictish polities; later transformed by Anglo-Saxon and Scottish expansion.",
+    "points": [[980,180],[1510,160],[1730,390],[1460,830],[1180,760],[930,470]]
+  },
+  {
+    "id": "eastern_roman",
+    "name": "Eastern Roman (Byzantine) Empire",
+    "origin": "Continuation of the Roman Empire in the East",
+    "keyRulers": "Emperor Zeno (r. 474-491)",
+    "capital": "Constantinople",
+    "summary": "The eastern empire preserved Roman institutions, tax systems, and a professional bureaucracy when western imperial structures fragmented. In 476, it remained the strongest Mediterranean state and a key diplomatic actor among Gothic, Vandal, and Italian rulers. Its government still claimed universal Roman legitimacy.",
+    "eventualFate": "Survived for nearly a millennium after 476, ending with the Ottoman capture of Constantinople in 1453.",
+    "points": [[3320,1540],[4420,1360],[5230,1600],[5260,2280],[4700,2670],[3850,2450],[3360,2030]]
+  },
+  {
+    "id": "huns",
+    "name": "Hunnic Remnants",
+    "origin": "Successor groups after Attila's empire collapsed (453)",
+    "keyRulers": "Ernak and other regional leaders",
+    "capital": "No enduring capital after imperial breakup",
+    "summary": "Although Attila's centralized empire had fractured by 476, Hunnic groups still influenced the Pontic and lower Danubian steppe. Their military traditions shaped neighboring Gothic and steppe polities. On maps of this period, they often appear as broad frontier peoples rather than a unified state.",
+    "eventualFate": "Absorbed into later steppe confederations and local powers.",
+    "points": [[4020,760],[4870,700],[5410,1120],[5330,1660],[4700,1500],[4180,1180]]
+  },
+  {
+    "id": "alans",
+    "name": "Alans",
+    "origin": "Iranian-speaking steppe people; western groups migrated with Vandals",
+    "keyRulers": "No single ruler in 476 western context",
+    "capital": "No fixed capital",
+    "summary": "By the late fifth century, Alanic groups were dispersed: some had joined the Vandal coalition in Africa, while others served in different western armies. Their mobility made them important as cavalry forces in post-Roman warfare. They are best understood as a people with multiple political homes rather than one kingdom.",
+    "eventualFate": "Integrated into Vandal, Visigothic, and later regional societies.",
+    "points": [[2060,2360],[2460,2320],[2630,2500],[2340,2660],[2010,2590]]
+  },
+  {
+    "id": "slavs",
+    "name": "Slavic Peoples",
+    "origin": "Early Slavic communities north of the lower Danube",
+    "keyRulers": "Tribal leadership structures, no known unified ruler",
+    "capital": "No fixed capital",
+    "summary": "In 476, Slavic-speaking groups were largely outside Roman provincial structures but increasingly visible in central and eastern Europe. Their communities were organized in local tribal networks. Over the next centuries they expanded dramatically into the Balkans and beyond.",
+    "eventualFate": "Expanded into much of eastern and southeastern Europe in the 6th-7th centuries.",
+    "points": [[3650,540],[4320,500],[4690,780],[4400,1030],[3870,980],[3560,760]]
+  },
+  {
+    "id": "baltic",
+    "name": "Baltic Peoples",
+    "origin": "Indigenous groups around southeastern Baltic coast",
+    "keyRulers": "Tribal leaders",
+    "capital": "No fixed capital",
+    "summary": "Baltic peoples occupied forested and riverine regions around the Baltic Sea's eastern and southeastern shores. In late antiquity they were organized in local communities rather than centralized states. Their relative autonomy persisted for centuries compared with neighboring imperial zones.",
+    "eventualFate": "Later developed into medieval Baltic societies such as Lithuanians and related groups.",
+    "points": [[3400,220],[3950,220],[4210,460],[3950,640],[3490,570]]
+  },
+  {
+    "id": "basques",
+    "name": "Basques",
+    "origin": "Indigenous western Pyrenean communities",
+    "keyRulers": "Local chieftains and town elites",
+    "capital": "No single fixed capital",
+    "summary": "Basque-speaking populations survived the collapse of Roman authority in the western Pyrenees. Their mountainous terrain supported local autonomy and distinct language continuity. They interacted with both Visigothic and Frankish powers while preserving regional identity.",
+    "eventualFate": "Evolved into enduring Basque polities and communities spanning both sides of the Pyrenees.",
+    "points": [[1660,1750],[1850,1730],[1930,1860],[1780,1960],[1610,1910]]
+  },
+  {
+    "id": "moors",
+    "name": "Moors (Mauretanian Regions)",
+    "origin": "Berber polities of North Africa",
+    "keyRulers": "Multiple local rulers",
+    "capital": "Regional centers in Mauretania (varied)",
+    "summary": "The term 'Moors' on late antique maps usually refers to diverse Berber populations west of core Vandal-controlled provinces. These groups ranged from semi-independent federates to fully autonomous communities. They played a major role in North African politics after Roman central control weakened.",
+    "eventualFate": "Continued as influential regional powers under Vandal and later Byzantine rule.",
+    "points": [[860,2660],[1510,2580],[1760,2910],[1450,3180],[900,3240],[700,2940]]
+  },
+  {
+    "id": "sassanid",
+    "name": "Sassanid Empire",
+    "origin": "Founded in 224 AD in Persia",
+    "keyRulers": "Peroz I (r. 459-484)",
+    "capital": "Ctesiphon",
+    "summary": "The Sassanid Empire was Rome's principal eastern rival and one of late antiquity's great powers. In 476 it controlled Mesopotamia, Iran, and neighboring regions through a sophisticated imperial administration. Roman and Sassanid diplomacy, war, and trade shaped the wider Near East.",
+    "eventualFate": "Conquered in the 7th century during the early Islamic expansions.",
+    "points": [[4700,1600],[5480,1580],[5480,3040],[4570,3330],[4200,2850],[4330,2120]]
+  },
+  {
+    "id": "crimean_goths",
+    "name": "Crimean Goths",
+    "origin": "Gothic communities around Crimea since late Roman era",
+    "keyRulers": "Local Gothic elites",
+    "capital": "Doros/Mangup area (later attested)",
+    "summary": "Some Gothic communities remained around Crimea even as larger Gothic groups moved west. Their position linked steppe, Black Sea, and Byzantine worlds. They are an example of long-lived ethnic continuity in a frontier zone.",
+    "eventualFate": "Persisted in modified form for centuries under changing regional powers.",
+    "points": [[4360,1200],[4550,1180],[4660,1290],[4570,1420],[4370,1390]]
+  },
+  {
+    "id": "heruli",
+    "name": "Heruli",
+    "origin": "Germanic military groups active along the Danube",
+    "keyRulers": "Various war leaders",
+    "capital": "No fixed capital",
+    "summary": "The Heruli were known less as a stable territorial kingdom and more as mobile military communities in the Danubian world. Some served in Roman armies; others formed independent groups after the Hunnic collapse. Their history highlights the fluid identity and settlement patterns of the period.",
+    "eventualFate": "Many were absorbed into larger kingdoms such as the Ostrogoths and Lombards.",
+    "points": [[3320,980],[3550,960],[3660,1110],[3540,1250],[3310,1200],[3230,1080]]
+  }
+]

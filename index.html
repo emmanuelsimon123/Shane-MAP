@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Europe in 476 AD — Interactive Classroom Map</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Europe at the Fall of the Western Roman Empire (476 AD)</h1>
+      <div class="toolbar" role="group" aria-label="Map controls">
+        <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
+        <button id="zoom-out" type="button" aria-label="Zoom out">−</button>
+        <button id="reset-view" type="button">Reset view</button>
+        <label class="quiz-toggle" for="quiz-mode">
+          <input id="quiz-mode" type="checkbox" />
+          Hide labels (quiz mode)
+        </label>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="map-section">
+        <div id="map-viewport" class="map-viewport" aria-label="Interactive map" tabindex="0">
+          <div id="map-canvas" class="map-canvas">
+            <img
+              id="map-image"
+              src="assets/europe-fall-rome-476.jpg"
+              alt="Historical map of Europe in 476 AD"
+              width="5491"
+              height="3506"
+            />
+            <svg id="hotspot-layer" viewBox="0 0 5491 3506" role="img" aria-label="Clickable kingdoms"></svg>
+          </div>
+        </div>
+      </section>
+
+      <aside id="info-panel" class="info-panel" aria-live="polite">
+        <section class="legend-panel">
+          <h2>Clickable regions</h2>
+          <ul id="legend-list" class="legend-list"></ul>
+        </section>
+
+        <section class="details-panel">
+          <h2 id="detail-name">Select a region</h2>
+          <p id="detail-origin" class="meta"></p>
+          <p id="detail-rulers" class="meta"></p>
+          <p id="detail-capital" class="meta"></p>
+          <p id="detail-summary"></p>
+          <p id="detail-fate" class="fate"></p>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="credits">
+      <p>
+        Map image credit: <strong>Droysen/Andrée, rev. G. Kossina</strong>.
+        Source:
+        <a href="https://commons.wikimedia.org/wiki/File:Europe_at_the_fall_of_the_Western_Roman_Empire_in_476.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons file page</a>.
+        License:
+        <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a>
+        (also dual-licensed under GFDL 1.2+).
+      </p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

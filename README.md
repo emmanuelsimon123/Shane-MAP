@@ -17,12 +17,14 @@ Students can:
 - `data/regions.json` — editable region content and hotspot polygons
 - `assets/europe-fall-rome-476.jpg` — map image asset
 
+> Note: In this sandbox, direct access to Wikimedia hosts was blocked at build time, so the committed file may be a local placeholder. Replace it with the official Wikimedia image from the source link above for production use.
+
 ## Run locally
 
 Because this site fetches JSON data, serve it with a local static server (do not open `index.html` directly as a file URL):
 
 ```bash
-cd /home/runner/work/Shane-MAP/Shane-MAP
+cd Shane-MAP
 python3 -m http.server 8000
 ```
 

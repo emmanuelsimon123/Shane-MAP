@@ -1,5 +1,15 @@
+// Keep these values aligned with the map image dimensions in assets/europe-fall-rome-476.jpg.
 const IMAGE_WIDTH = 5491;
 const IMAGE_HEIGHT = 3506;
+const FIT_SCALE_FLOOR = 0.15;
+const MIN_SCALE_RATIO = 0.7;
+const MIN_SCALE_FLOOR = 0.12;
+const MAX_SCALE_FLOOR = 4;
+const MAX_SCALE_RATIO = 12;
+const WHEEL_ZOOM_IN_FACTOR = 1.12;
+const WHEEL_ZOOM_OUT_FACTOR = 0.89;
+const BUTTON_ZOOM_IN_FACTOR = 1.2;
+const BUTTON_ZOOM_OUT_FACTOR = 0.84;
 
 const mapViewport = document.getElementById('map-viewport');
 const mapCanvas = document.getElementById('map-canvas');
@@ -43,9 +53,9 @@ function fitToViewport() {
   const viewH = mapViewport.clientHeight;
   const fitScale = Math.min(viewW / IMAGE_WIDTH, viewH / IMAGE_HEIGHT);
 
-  state.scale = Math.max(0.15, fitScale);
-  state.minScale = Math.max(0.12, fitScale * 0.7);
-  state.maxScale = Math.max(4, fitScale * 12);
+  state.scale = Math.max(FIT_SCALE_FLOOR, fitScale);
+  state.minScale = Math.max(MIN_SCALE_FLOOR, fitScale * MIN_SCALE_RATIO);
+  state.maxScale = Math.max(MAX_SCALE_FLOOR, fitScale * MAX_SCALE_RATIO);
 
   state.tx = (viewW - IMAGE_WIDTH * state.scale) / 2;
   state.ty = (viewH - IMAGE_HEIGHT * state.scale) / 2;
@@ -147,7 +157,7 @@ function renderRegions() {
 function bindPanAndZoom() {
   mapViewport.addEventListener('wheel', (event) => {
     event.preventDefault();
-    const factor = event.deltaY < 0 ? 1.12 : 0.89;
+    const factor = event.deltaY < 0 ? WHEEL_ZOOM_IN_FACTOR : WHEEL_ZOOM_OUT_FACTOR;
     zoomAt(event.clientX, event.clientY, factor);
   }, { passive: false });
 
@@ -188,12 +198,12 @@ function bindPanAndZoom() {
 
   zoomInButton.addEventListener('click', () => {
     const rect = mapViewport.getBoundingClientRect();
-    zoomAt(rect.left + rect.width / 2, rect.top + rect.height / 2, 1.2);
+    zoomAt(rect.left + rect.width / 2, rect.top + rect.height / 2, BUTTON_ZOOM_IN_FACTOR);
   });
 
   zoomOutButton.addEventListener('click', () => {
     const rect = mapViewport.getBoundingClientRect();
-    zoomAt(rect.left + rect.width / 2, rect.top + rect.height / 2, 0.84);
+    zoomAt(rect.left + rect.width / 2, rect.top + rect.height / 2, BUTTON_ZOOM_OUT_FACTOR);
   });
 
   resetViewButton.addEventListener('click', fitToViewport);
@@ -225,7 +235,7 @@ async function init() {
     }
   } catch (error) {
     detailName.textContent = 'Unable to load map data';
-    detailSummary.textContent = String(error.message || error);
+    detailSummary.textContent = `Please verify that this site is running from a local/server URL and that data/regions.json is present. Technical detail: ${String(error.message || error)}`;
     console.error(error);
   }
 }
